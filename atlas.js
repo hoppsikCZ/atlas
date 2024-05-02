@@ -25,7 +25,7 @@ function updateRegion() {
     })
 }
 
-document.getElementById('.dropdown-menu li a').on('click', function () {
+$('.dropdown-menu li a').on('click', function () {
     region = $(this).text().toLowerCase()
     updateRegion()
 });
