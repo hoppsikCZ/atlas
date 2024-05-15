@@ -14,9 +14,6 @@ function updateRegion(region) {
                     <h4 class="card-title">${country.translations.ces.common}</h4>
                     <p class="card-text">
                         Hlavní město: ${country.capital}
-                        <br>Počet obyvatel: ${country.population}
-                        <br>Rozloha: ${country.area} km²
-                        
                     </p>
                 </div>
             </div>
